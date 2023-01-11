@@ -1,0 +1,230 @@
+h2 {
+  color: #26aab9;
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 14px;
+}
+
+.f h3 {
+  font-weight: bold;
+}
+
+.e {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menulist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.menulist li {
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.k h3 {
+  text-align: center;
+}
+
+.k h2 {
+  text-align: center;
+}
+
+.k {
+  margin-bottom: 20px;
+}
+
+.f {
+  margin-top: 100px;
+}
+
+.b h3 {
+  margin-bottom: 10px;
+}
+
+.b h2 {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.c {
+  width: 425px;
+  margin-left: 13px;
+}
+
+.d {
+  width: 425px;
+}
+
+.b {
+  margin-top: 50px;
+}
+
+.bloglist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.bloglist h3 {
+  margin-top: 20px;
+}
+
+.bloglist p {
+  font-size: 6px;
+}
+
+.bloglist li {
+  margin-left: 13px;
+  margin-right: 13px;
+  width: 275px;
+}
+
+.i {
+  text-align: center;
+}
+
+.btn1 {
+  color: #26aab9;
+  background-color: white;
+  border-color: #26aab9;
+  font-size: 12px;
+  width: 180px;
+  height: 40px;
+  border-radius: 3px;
+  border-width: 0.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.j {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+
+.j h1 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.j h4 {
+  color: gray;
+  font-size: 6px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media screen and (min-width: 750px) {
+  .b {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .imga {
+    width: 420px;
+  }
+  .img {
+    width: 275px;
+  }
+  .d {
+    margin-left: 30px;
+  }
+  .btn1 {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
+  .btn1 p {
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .bloglist li {
+    width: 80%;
+  }
+  .img {
+    width: 95%;
+  }
+  .imga {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .topp {
+    width: 100%;
+  }
+  .c {
+    width: 100%;
+  }
+  .imga {
+    width: 95%;
+  }
+  .c {
+    margin-left: 20px;
+    margin-right: auto;
+  }
+  .d {
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .bloglist {
+    display: block;
+    margin-left: 20px;
+  }
+  .bloglist li {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .img {
+    width: 97%;
+  }
+  .btn1 {
+    width: 94%;
+    margin-left: 20px;
+    padding: 20px;
+  }
+  .btn1 p {
+    margin: 0px;
+  }
+  .j h1 {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
